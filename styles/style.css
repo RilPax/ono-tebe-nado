@@ -73,13 +73,18 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   display: flex;
   flex-direction: column;
   box-sizing: content-box;
+  margin-top: 6px;
+  margin-left: 186px;
+}
+
+.contacts-font {
   font-family: Raleway, sans-serif;
+  font-style:normal;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
   text-align: left;
-  margin-top: 6px;
-  margin-left: 186px;
+  color: #000000;
 }
 
 .letter-spacing-contacts {
@@ -199,8 +204,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   z-index: 2;
   width: 256px;
   height: 51px;
-  margin-left: 716px;
-  margin-top: -40px;
+  margin-left: 694px;
+  margin-top: 655px;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -271,6 +276,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .card-font-name {
+  position: absolute;
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
   text-decoration: underline;
@@ -297,15 +303,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   bottom: 0;
   margin: 0px 40px 48px;
 }
-
-.ellipsis-leter-spacing {
-  letter-spacing: 0.13em;
-}
-
-.one-of-letter-spacing {
-  letter-spacing: -0.01em;
-}
-
 .link-more-lots {
   display: inline-block;
   margin: 30px 0px 0px 40px;
@@ -358,9 +355,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   display: block;
   width: 291px;
   height: 47px;
-  margin-top: 3px;
+  margin-top: 4px;
   padding-bottom: 99px;
-  
 }
 
 .h-heading {
@@ -384,36 +380,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   letter-spacing: 0.005em;
 }
 
-.paragraph-typography-letter-spacing-1 {
-  letter-spacing: 0.009em;
-}
-
-.paragraph-typography-letter-spacing-2 {
-  letter-spacing: 0.01em;
-}
-
-.first-paragraph-typography-letter-spacing-1 {
-  letter-spacing: -0.02em;
-}
-
-.first-paragraph-typography-letter-spacing-2 {
-  letter-spacing: -0.001em;
-}
-
-.second-paragraph-typography-letter-spacing-1 {
-  letter-spacing: 0.005em;
-}
-
-.second-paragraph-typography-letter-spacing-2 {
-  letter-spacing: 0.02em;
-}
-
-.second-paragraph-typography-letter-spacing-3 {
-  letter-spacing: -0.01em;
-}
-
-
-
 .footer {
   box-sizing: border-box;
   display: flex;
@@ -427,11 +393,23 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   display: flex;
   flex-direction: column;
   box-sizing: content-box;
+}
+
+.contacts-article {
   font-family: Raleway, sans-serif;
+  font-style: normal;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
   text-align: left;
+  color: #000000;
+}
+
+.non-underline {
+  text-decoration: none;
 }
 
 .navi-footer {
